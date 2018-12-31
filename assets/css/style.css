@@ -1,0 +1,1045 @@
+/*----------------------------------------------
+Author                 : Omar Faruk
+Author Url           : www.facebook.com/omarbangla24
+Template Name  : Hello
+Version                : 1.0
+---------------------------------------------- */
+
+/*-----------------------------------------------
+[Table of Contents]
+ 1. Body
+ 2. Loader
+ 3. Header & Nav
+ 4. What We Do
+ 5. Our Latest Work
+ 6. Testimonials
+ 7. Our Happy Clint
+ 8. Meet The Team
+ 9. Work With Us
+ 10. Footer
+ -------------------------------------------*/
+
+/*================== Global Style ================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=====================================================================
+                                                                    Loader
+=====================================================================*/
+#preloder{
+    z-index: 99999;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: #ffffff;
+}
+
+#status{
+    background-image: url(../images/icon/ripple.gif);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+     left: 50%;
+    top: 50%;
+   margin-top: -100px;
+   margin-left: -100px;
+}
+
+
+
+/*=====================================================================
+                                                                Header & Nav
+=====================================================================*/
+
+/*----------------Nav---------------*/
+.container-full {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.bg-light{
+    background-color: transparent !important;
+
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 0 !important;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    -ms-flex-align: center;
+     align-items: initial;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    padding-top: 5px;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.nav-ul {
+    padding-top: 4px;
+}
+
+.nav-ul .nav-li {
+    float: left;
+    text-align: center;
+    padding: 0 20px 0 0;
+    color: white;
+    list-style: none;
+}
+
+.nav-ul .nav-li .nav-a {
+    text-decoration: none;
+    color: white;
+    font-family: "proxima", sans-serif;
+    font-size: 16px;
+}
+
+.nav-a.nav-active {
+    border-top: 6px solid #54d154;
+    padding-top: 2px;
+    font-weight: 600;
+}
+
+/*-------------Logo-----------------*/
+.fa, .fas {
+    font-weight: 900;
+    color: white;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+
+}
+
+.logo:hover {
+    color: #fbfff9;
+
+}
+
+/*----------Search-------------*/
+
+.search {
+    position: relative;
+    margin-top: 5px;
+}
+
+.search .search-box {
+    height: 27px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    float: left;
+
+}
+
+input[placeholder="Search..."] {
+    font-family: "proxima", sans-serif;
+    font-size: 16px;
+    color: #111111;
+}
+
+.search>.search-icon {
+    float: left;
+    display: block;
+    position: absolute;
+   right: 10%;
+    cursor: pointer;
+}
+
+
+/*-----------------------------------------------------Banner-------------------------------------------------------*/
+
+#banner {
+    height: 659px;
+    width: 100%;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner .container .row .col-md-12 .banner-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-top: 252px;
+}
+
+#banner .container .row .col-md-12 a {
+    font-family: proxima, sans-serif;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+}
+
+#banner .container .row .col-md-12 .banner-btn {
+    height: 47px;
+    width: 208px;
+    background: #54D154;
+    padding: 10px 27px;
+    border-radius: 50px;
+    display: block;
+    margin: 40px auto;
+}
+
+#banner .container .row .col-md-12 .banner-btn:hover {
+    background-color: #32b432;
+    color: white;
+}
+
+.scroll {
+    display: block;
+    margin: 110px auto 0 auto ;
+
+}
+
+/*=====================================================================
+                                                                    What We Do
+=====================================================================*/
+
+#what-do {
+}
+
+#what-do .container .row .col-md-12 .w-header {
+    margin-top: 43px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    color: #828181;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.w-header::before {
+    content: " ";
+    background-color: #828181;
+    width: 43px;
+    height: 2px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#what-do .container .row .col-md-12 .what-pera {
+    margin-top: 24px;
+    margin-bottom: 77px;
+    text-align: center;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 16px;
+    color: #b7b3b3;
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 73px;
+}
+
+.what-img {
+    display: block;
+    margin: auto;
+}
+
+.box-row .what-box .what-header {
+    text-align: center;
+    font-family: "proxima-bold", sans-serif;
+    font-size: 24px;
+    color: #828181;
+    margin-bottom: 24px;
+    margin-top: 27px;
+}
+
+.box-row .what-box .what-pera {
+    text-align: center;
+    font-family: "Montserrat Light", sans-serif;
+    font-size: 15px;
+    color: #828181;
+    margin-bottom: 26px;
+
+}
+
+.box-row .what-box .what-btn {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 125px;
+    background-color: #54d154;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.box-row .what-box .what-btn .learn-text {
+    font-family: "proxima", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 3px;
+}
+
+.box-row .what-box .what-btn:hover {
+    background-color: #32b432;
+    color: white;
+}
+
+
+/*=====================================================================
+                                                                    Our Latest Work
+=====================================================================*/
+
+#latest-work {
+    background: #54d154;
+    padding-bottom: 59px;
+}
+
+.work-title {
+    margin: 45px 0 60px;
+}
+
+.work-title .work-header {
+    margin-top: 43px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    color: #207b20;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.work-header::before {
+    content: " ";
+    background-color: #207b20;
+    width: 43px;
+    height: 2px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.work-title .work-pera {
+    margin-top: 24px;
+    margin-bottom: 77px;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 16px;
+    color: #2b9b2b;
+    text-align: center;
+}
+
+
+/* ---- isotope ---- */
+
+/* ---- button ---- */
+.button {
+    display: inline-block;
+    padding: 10px 17px 6px 14px;
+    background: #FFFFFF;
+    border: none;
+    color: #319E31;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2B9B2B;
+    color: white;
+}
+
+
+.button.is-checked {
+    background-color: #2B9B2B;
+}
+
+.button.is-checked {
+    color: white;
+}
+
+.button:active {
+
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.view-more-button {
+    padding-top: 27px;
+}
+
+.view-more-button button {
+    background: #279A27;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 21px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.view-more-button a {
+    text-decoration: none;
+}
+
+.button-group .button {
+    border-radius: 0;
+    margin-left: 0;
+    outline: inherit;
+    margin-bottom: 30px;
+    border: 1px solid #2B9B2B;
+    height: 35px;
+}
+
+.button-group .button:first-child {
+    border-radius: 1.5em 0 0 1.5em;
+    padding: 5px 17px 5px 21px;
+
+}
+
+.button-group .button:nth-child(2) {
+    padding: 5px 17px 5px 21px;
+}
+
+.button-group .button:last-child {
+    border-radius: 0 1.5em 1.5em 0;
+    padding: 5px 17px 5px 21px;
+}
+
+
+.element.style {
+    position: absolute;
+    left: 0;
+    top: 216px;
+}
+
+.element-item {
+    position: relative;
+    /*width: 20%;*/
+    /*border: 29px solid #54D154;*/
+    color: #262524;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+/*=====================================================================
+                                                                            Testimonials
+=====================================================================*/
+
+
+#testimonials {
+    margin-bottom: 60px;
+}
+
+.testi-header {
+    margin-top: 43px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    color: #828181;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+
+.testi-header::before {
+    content: " ";
+    background-color: #828181;
+    width: 43px;
+    height: 2px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.testi-pera {
+    margin-top: 24px;
+    margin-bottom: 77px;
+    text-align: center;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 16px;
+    color: #b7b3b3;
+}
+
+.testi-main {
+}
+
+.testi-text {
+    width: 70%;
+    display: block;
+    margin: auto;
+
+}
+
+.testi-p {
+    text-align: center;
+
+}
+
+.author {
+    float: left;
+    margin-left: 30%;
+    margin-top: 15px;
+
+
+}
+
+.author-img {
+    float: left;
+
+}
+
+.author-info {
+    float: left;
+    margin-left: 8px;
+
+}
+
+.a-name {
+    font-family: Proxima, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    margin-bottom: 2px;
+}
+
+.a-title {
+    text-decoration: none;
+    color: #cccccc;
+    font-family: Proxima, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+
+.carousel-control-prev {
+    opacity: 5;
+}
+
+
+.carousel-control-next {
+    opacity: 5;
+}
+
+
+
+
+/*=======================================================================
+                                                                Our Happy Clint
+========================================================================*/
+
+#happy-clint {
+    background-color: #f2f1f1;
+}
+
+.happy-header {
+    margin-top: 43px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    color: #828181;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+
+.happy-header::before {
+    content: " ";
+    background-color: #828181;
+    width: 43px;
+    height: 2px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.happy-pera {
+    margin-bottom: 22px;
+    margin-top: 24px;
+    text-align: center;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 16px;
+    color: #b7b3b3;
+}
+
+
+.clint-list {
+    margin-left: 85px;
+}
+
+.happy-img {
+    margin-top: 60px;
+}
+
+.happy-img[alt="asus"] {
+    margin-top: 88px;
+}
+
+.happy-img[alt="qualcomm"] {
+    margin-top: 88px;
+}
+
+
+.clint-btn {
+    height: 40px;
+    width: 186px;
+    background-color: #dddcdc;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;
+    margin: 60px auto;
+    font-family: proxima, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #a59d9d;
+    text-align: center;
+    position: relative;
+}
+
+.clint-btn > img {
+    position: absolute;
+    top: 17px;
+    right: 25px;
+}
+
+
+.clint-btn:hover {
+    background-color: #d6d5d5;
+    text-decoration: none;
+    color: #a59d9d;
+}
+
+/*======================================================================
+                                                            Meet The Team
+========================================================================*/
+
+#team {
+    background-color: #54d154;
+}
+
+.meet-header {
+    padding-top: 35px;
+    color: #207b20;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.meet-header::before {
+    content: " ";
+    background-color: #207b20;
+    width: 43px;
+    height: 2px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.meet-pera {
+    margin-bottom: 52px;
+    font-family: "Open Sans Light", sans-serif;
+    color: #2b9b2b;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 65px;
+}
+
+.team-list .team-box {
+
+}
+
+.team-list .team-box img {
+    display: block;
+    margin: auto;
+}
+
+
+.team-list .team-box h3 {
+    font-family: Proxima, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 14px;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.team-list .team-box h3::before {
+    content: " ";
+    background-color: #207b20;
+    width: 2px;
+    height: 77px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.team-list .team-box .social-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 77px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #e6e7e6;
+    border-radius: 50px;
+    margin: auto;
+}
+
+/*====================================================================
+                                                                    Work With Us
+=====================================================================*/
+
+#work-with-us {
+    background-color: #3eba3e;
+    padding-top: 27px;
+    padding-bottom: 25px;
+}
+
+#work-with-us .work-with-box {
+    height: 40px;
+    width: 175px;
+    background-color: #54d154;
+    box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+#work-with-us .work-with-box .work-with-text {
+    font-family: Proxima, sans-serif;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+}
+
+#work-with-us .work-with-box:hover {
+    background-color: #3eba3e;
+    cursor: pointer;
+
+}
+
+/*======================================================================
+                                                                            Footer
+======================================================================*/
+
+/*------------------------------------------------Big Footer------------------------------------------------------*/
+
+#big-footer {
+    background-color: #333333;
+}
+
+.footer-header {
+    color: #dddddd;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.footer-header::before {
+    content: " ";
+    background-color: #fffefe;
+    width: 43px;
+    height: 2px;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.about-pera {
+    font-family: Proxima, sans-serif;
+    font-size: 16px;
+    color: #cccccc;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.social-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 77px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    background-color: #e6e7e6;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.social-icon {
+
+}
+
+/*Recent Post*/
+.post-one {
+    float: left;
+}
+
+.postimg {
+    display: block;
+    margin-bottom: 15px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+.text-list {
+    float: left;
+    margin-left: 8px;
+
+}
+
+.text-cat {
+
+    float: left;
+}
+
+
+.post-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+    color: #cccccc;
+    margin-bottom: 2px;
+}
+
+.post-link {
+    text-decoration: none;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+
+}
+
+
+.post-title:hover {
+    text-decoration: none;
+    color: #f7fcff;
+}
+
+.post-link:hover {
+    color: white;
+    background: #32b432;
+    text-decoration: none;
+}
+
+
+.green {
+    background-color: #54D154;
+}
+
+.yellow {
+    background-color: #FFBA00;
+}
+
+.blue {
+    background-color: #089DEA;
+}
+
+.orange {
+    background-color: #F34D04;
+}
+
+
+/*Contact*/
+
+
+.contact-header {
+
+}
+
+.address {
+    margin-top: 20px;
+    color: #c9c9c9;
+    text-align: center;
+    font-family: "proxima", sans-serif;
+    font-size: 14px;
+    line-height: 2px;
+}
+
+
+.contact-form {
+    display: block;
+    margin: auto;
+    position: relative;
+    padding-bottom: 35px;
+    padding-top: 22px;
+    width:80%;
+}
+
+.form-group {
+    margin-bottom: 2px;
+}
+
+.name {
+    background-color: #444444;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+}
+
+.email {
+    background-color: #444444;
+    border: none;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+}
+
+.msg {
+    background-color: #444444;
+    border: none;
+    width: 100%;
+    padding: 10px 0 108px 15px;
+}
+
+.btn-big {
+    background-color: #2b9b2b;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+    color: white;
+    font-family: Proxima, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.btn-big:hover {
+    color: white;
+    background: #32b432;
+}
+
+/*----------------------------------------------------Small Footer-----------------------------------------------------*/
+
+#seen-bg {
+    background: #222222;
+}
+
+.seen-header {
+    color: #101010;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.seen-header::before {
+    content: " ";
+    background-color: #101010;
+    width: 43px;
+    height: 2px;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.seen-img {
+    padding-bottom: 30px;
+    max-width: 100%;
+}

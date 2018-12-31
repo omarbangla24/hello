@@ -1,0 +1,151 @@
+@media all and (max-width: 452px) {
+   
+}
+
+
+
+@media all and (max-width:992px) {
+    /*=============================================================
+                                                                            Navbar
+    =============================================================*/
+
+    /*logo*/
+
+    .navbar-brand {
+        display: none;
+    }
+
+    /*Nav*/
+
+    .bg-light{
+        background-color: #222222 !important;
+    }
+
+    .nav-ul{
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .nav-ul .nav-li {
+        float: left;
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 60px;
+        color: white;
+        list-style: none;
+    }
+
+    /*Search*/
+
+    .search {
+        position: absolute;
+        bottom: 15px;
+        right: 3%;
+
+    }
+
+
+    /*==============================================================
+                                                                        Banner
+       ==============================================================*/
+    #banner .container .row .col-md-12 .banner-header {
+        font-family: Montserrat, sans-serif;
+        font-size: 52px;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        margin-top: 180px;
+    }
+
+    #banner .container .row .col-md-12 .banner-btn {
+        height: 40px;
+        width: 190px;
+        background: #54D154;
+        padding: 8px 32px;
+        border-radius: 50px;
+        display: block;
+        margin: 40px auto;
+    }
+
+    #banner .container .row .col-md-12 a {
+        font-family: proxima, sans-serif;
+        font-size: 17px;
+        color: white;
+        text-decoration: none;
+    }
+    /*==============================================================
+                                                                  What We do
+       ==============================================================*/
+    .box-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 42px;
+    }
+
+    .box-row .what-box .what-btn {
+        display: block;
+        margin: 42px auto;
+        height: 30px;
+        width: 125px;
+        background-color: #54d154;
+        color: white;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    /*==============================================================
+                                                                     Our Latest Work
+       ==============================================================*/
+
+
+
+
+
+    /*==============================================================
+                                                                  Our Happy Clint
+       ==============================================================*/
+
+
+
+
+
+
+
+
+    /*==============================================================
+                                                             Team
+       ==============================================================*/
+
+
+    .team-list .team-box .social-list {
+        margin-bottom: 40px;
+    }
+    .team-list .team-box {
+        margin-left: 40px;
+    }
+
+
+    /*==============================================================
+                                                                  Footer
+       ==============================================================*/
+
+
+
+    .text-list {
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .seen-img {
+        padding-bottom: 30px;
+        max-width: 90%;
+    }
+}
+
+
+
+
+
